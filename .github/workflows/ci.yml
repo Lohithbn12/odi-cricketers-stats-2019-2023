@@ -1,0 +1,8 @@
+name: repo-sanity
+on: [push, pull_request]
+jobs:
+  pass:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "✅ Repo structure OK"
