@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.ipynb_checkpoints/
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+renv/library/
+data/processed/
+data/interim/
+models/
+.DS_Store
+Thumbs.db
